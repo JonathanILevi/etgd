@@ -1,0 +1,6 @@
+name "etgd"
+description "ETG (Element Tree Gui) rendering for D."
+authors "Jonathan Levi"
+copyright "Copyright © 2018, Jonathan Levi"
+license "BST-1.0"
+dependency "cst" version="~>1.0.4"

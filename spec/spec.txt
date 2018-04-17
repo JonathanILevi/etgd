@@ -8,7 +8,7 @@ aclass El {
     void parent(El);//For advanced usage (when adding overrides for `addChild`).
 
     string[string][string][] styles;
-    void addStyle(string[string][string] style);
+    void addStyles(string[string][string] styles);
     string getStyle(string style);
     
     draw();
