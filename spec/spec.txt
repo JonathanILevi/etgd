@@ -1,0 +1,27 @@
+
+aclass El {
+    string id;
+    string[] classes;
+
+    ////El _parent;
+    El parent();
+    void parent(El);//For advanced usage (when adding overrides for `addChild`).
+
+    string[string][string][] styles;
+    void addStyle(string[string][string] style);
+    string getStyle(string style);
+    
+    draw();
+}
+
+
+class Box {
+    ////DNode!El* _children = new DNode!El;
+    FRange children();
+    void addChild();
+    void addChild(El);
+    void addChild(int);//Negative values are from end.
+}
+
+
+
